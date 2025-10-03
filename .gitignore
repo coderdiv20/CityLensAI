@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# dotnet
+bin/
+obj/
+**/*.user
+**/*.suo
+
+# node
+node_modules/
+dist/
+.temp/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# docker
+docker-compose.override.yml
+
+# secrets
+.env
+.env.local
+secrets.*
